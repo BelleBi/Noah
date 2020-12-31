@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="17px" height="17px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="3.5" y1="0.14" x2="3.5" y2="7" id="LinearGradient131">
+      <stop id="Stop132" stop-color="#ffffff" stop-opacity="0.0666666666666667" offset="0" />
+      <stop id="Stop133" stop-color="#ffffff" stop-opacity="0.141176470588235" offset="0.07" />
+      <stop id="Stop134" stop-color="#ffffff" stop-opacity="0.2" offset="0.14" />
+      <stop id="Stop135" stop-color="#ffffff" stop-opacity="0.294117647058824" offset="0.22" />
+      <stop id="Stop136" stop-color="#ffffff" stop-opacity="0.356862745098039" offset="0.34" />
+      <stop id="Stop137" stop-color="#ffffff" stop-opacity="0.435294117647059" offset="0.44" />
+      <stop id="Stop138" stop-color="#ffffff" stop-opacity="0.498039215686275" offset="0.56" />
+      <stop id="Stop139" stop-color="#ffffff" stop-opacity="0.572549019607843" offset="0.61" />
+      <stop id="Stop140" stop-color="#ffffff" stop-opacity="0.658823529411765" offset="0.67" />
+      <stop id="Stop141" stop-color="#ffffff" stop-opacity="0.76078431372549" offset="0.77" />
+      <stop id="Stop142" stop-color="#ffffff" stop-opacity="0.807843137254902" offset="0.85" />
+      <stop id="Stop143" stop-color="#ffffff" stop-opacity="0.874509803921569" offset="0.93" />
+      <stop id="Stop144" stop-color="#ffffff" stop-opacity="0.964705882352941" offset="1" />
+    </linearGradient>
+    <filter x="0px" y="0px" width="17px" height="17px" filterUnits="userSpaceOnUse" id="filter145">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget146">
+      <path d="M 3.5 0  C 5.46 0  7 1.54  7 3.5  C 7 5.46  5.46 7  3.5 7  C 1.54 7  0 5.46  0 3.5  C 0 1.54  1.54 0  3.5 0  Z " fill-rule="nonzero" fill="url(#LinearGradient131)" stroke="none" />
+    </g>
+  </defs>
+  <g>
+    <use xlink:href="#widget146" filter="url(#filter145)" />
+    <use xlink:href="#widget146" />
+  </g>
+</svg>

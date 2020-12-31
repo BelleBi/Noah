@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="21px" height="21px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="5.5" y1="0" x2="5.5" y2="11" id="LinearGradient423">
+      <stop id="Stop424" stop-color="#ffffff" stop-opacity="0.290196078431373" offset="0" />
+      <stop id="Stop425" stop-color="#ffffff" stop-opacity="0.443137254901961" offset="0.09" />
+      <stop id="Stop426" stop-color="#ffffff" stop-opacity="0.490196078431373" offset="0.16" />
+      <stop id="Stop427" stop-color="#ffffff" stop-opacity="0.490196078431373" offset="0.25" />
+      <stop id="Stop428" stop-color="#ffffff" stop-opacity="0.56078431372549" offset="0.35" />
+      <stop id="Stop429" stop-color="#ffffff" stop-opacity="0.631372549019608" offset="0.47" />
+      <stop id="Stop430" stop-color="#ffffff" stop-opacity="0.674509803921569" offset="0.54" />
+      <stop id="Stop431" stop-color="#ffffff" stop-opacity="0.631372549019608" offset="0.63" />
+      <stop id="Stop432" stop-color="#ffffff" stop-opacity="0.572549019607843" offset="0.69" />
+      <stop id="Stop433" stop-color="#ffffff" stop-opacity="0.509803921568627" offset="0.77" />
+      <stop id="Stop434" stop-color="#ffffff" stop-opacity="0.47843137254902" offset="0.85" />
+      <stop id="Stop435" stop-color="#ffffff" stop-opacity="0.462745098039216" offset="0.93" />
+      <stop id="Stop436" stop-color="#ffffff" stop-opacity="0.254901960784314" offset="1" />
+    </linearGradient>
+    <filter x="0px" y="0px" width="21px" height="21px" filterUnits="userSpaceOnUse" id="filter437">
+      <feOffset dx="5" dy="5" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget438">
+      <path d="M 5.5 11  L 0 5.5  L 5.5 0  L 11 5.5  L 5.5 11  Z " fill-rule="nonzero" fill="url(#LinearGradient423)" stroke="none" />
+    </g>
+  </defs>
+  <g>
+    <use xlink:href="#widget438" filter="url(#filter437)" />
+    <use xlink:href="#widget438" />
+  </g>
+</svg>
